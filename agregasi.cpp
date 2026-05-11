@@ -18,4 +18,13 @@ int main() { //agregasi
     varibu2->tambahAnak(varAnak3);
     varibu2->tambahAnak(varAnak1);
 
-  
+    delete varIbu;
+    delete varibu2;
+    delete varAnak1;
+    delete varAnak2;
+    delete varAnak3;
+
+    system("pause ");
+
+    return 0;
+}
